@@ -1,0 +1,22 @@
+.cartItemContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+.columns{
+    flex-basis: 16.6666666%;
+}
+.cartItemImg{
+    width: 20%;
+}
+.countBtn span{
+    font-size: 1.8rem;
+}
+span{
+    cursor: pointer;
+}
+@media screen and (min-width: 768px){
+    .columns{
+    flex-basis: 16.6666666%;
+}
+}

@@ -1,0 +1,14 @@
+.colunmsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+.columns{
+    flex-basis: 16.6666666%;
+}
+
+@media screen and (min-width: 768px){
+    .columns{
+    flex-basis: 16.6666666%;
+}
+}

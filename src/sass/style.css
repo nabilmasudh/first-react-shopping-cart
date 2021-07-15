@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@500&display=swap");
+body {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  background: #f3f3f3;
+  color: #232528;
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.text-blue {
+  color: #2a2a72;
+}
+
+.text-bright {
+  color: #1f90ee;
+}
+
+nav {
+  background: #ffffff;
+  font-size: 1.6rem;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 0 1.5rem;
+}
+
+#container {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+#container .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0rem;
+}
+
+#container .center .carts {
+  -ms-flex-preferred-size: 24%;
+      flex-basis: 24%;
+  background: #FFFFFF;
+  margin: 0.5%;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#container .center .carts img {
+  width: 100%;
+}
+
+button {
+  background: #ffa400;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  outline: none;
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f5dbab;
+  color: #ffa400;
+}
+
+.title {
+  margin: 2rem 0;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 0.5rem;
+}
+
+.cart-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+/*# sourceMappingURL=style.css.map */
